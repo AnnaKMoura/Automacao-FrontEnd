@@ -31,7 +31,7 @@ public class Steps {
 
 	@Then("logo na conta")
 	public void logo_na_conta() throws IOException {
-		browsers.digitar("annakarolinamf@gmail.com", elementos.getEmail());
+		browsers.digitar("a***********@gmail.com", elementos.getEmail());
 		browsers.digitar("Ex123456", elementos.getSenha());
 		browsers.clicar(elementos.getLogar());
 		browsers.pause();
